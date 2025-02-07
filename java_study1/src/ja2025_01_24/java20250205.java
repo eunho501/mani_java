@@ -9,18 +9,19 @@ public class java20250205 {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		
-//		for(int i=1;i<=2;i++) {
-//			
-//			System.out.println("변수i 사용 반복문"+i);
-//			for(int k=1;k<=3;k++	) {
-//				System.out.println("ㅂ변수k사용"+k);
-//			}
+//	for(int i=0;i<=11;i++) {
+//		
+//		System.out.println("변수i 사용 반복문"+i);
+//		for(int k=1;k<=3;k++	) {
+//			System.out.println("ㅂ변수k사용"+k);
+//		}
+//		
+//		
 		
-		
-		for(int i=2;i<=9;i++) {
-			for(int k=1;k<=9;k++) {
-				System.out.printf("%d*%d=%d \n",i,k,k*i);
-		}
+//	for(int i=2;i<=9;i++) {
+//		for(int k=1;k<=9;k++) {
+//			System.out.printf("%d*%d=%d \n",i,k,k*i);
+//		}
 		
 //		int i=1; //이런경우라면 반복문 두개를 쓰는게 더좋을수있다. 
 //		for(int k=2;k<=9;) {
