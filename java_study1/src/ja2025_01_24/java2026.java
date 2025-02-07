@@ -29,7 +29,7 @@ public class java2026 {
 			 
 		 }
 	 }
-		
+		ds
 //   static Scanner sc = new Scanner(System.in);
 //   public static void main(String[] args) {
 //      System.out.print("정수입력:");
