@@ -17,7 +17,7 @@ public class java2025020777 {
 //			System.out.println();
 //		}
 //		
-		ㄴㅇ
+		ㄴㅇㄴㅇ
 //		for(int i=1;i<=3;i++) {
 //			for(int k=1;k<=i;k++	) {
 //				System.out.print("*");
