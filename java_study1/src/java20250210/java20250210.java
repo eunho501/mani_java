@@ -12,7 +12,7 @@ public class java20250210 {
 		//자바스크립트 배열 -> let arr=[]	; let arr=new Array()	;
 		//자바에서 배열선언
 		//  int[]arr= new int[5]; // 5개의 공간으로 이루어진 배열 선언
-   
+		// int[]arr2=new int[]{1,20,50,15}; 4개공간 배열선언
 	}
 
 }
