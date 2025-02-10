@@ -34,6 +34,26 @@ public class java20250210 {
 		
 //		int[] apple =new int[10]; 참조변수 주소를 가지는 변수 
 		// 참조변수를 사용하려면 배열인경우 인덱스를 객체인경우는 .  접근연산자를 
+		//Scanner 라는 이름의 클래스 타입이다.
+		// scanner[]ab=new scanner[50];
+		//ab[0];
+		
+		//배열에 데이터입력
+		//for(int i=0;i<=0;i++){
+//		System.out.print("숫자입력");
+		//apple[i]=sc.nextInt();
+		//}
+		//apple.length -> 배열의 크기 ( 공간갯수)
+		// 실수데이터는 정확도가 100%가 아니라 잘못 처리될 가능성이 있다. 
+		//배열의 크기는 반드시 10진수 정수양수로 지정해야된다 
+		//for (int i=0;i<apple.length;i++){
+//		System.out.println("배열값"+apple[i]);
+		//}
+		// 자료구조의 기본 : 배열 테이터를 순차적으로 빠르게 처리가능  
+		//단점: 프로그램 실행중 크기변경 X 
+		
+		
+		
 	}
 
 }
