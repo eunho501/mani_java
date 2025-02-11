@@ -1,5 +1,8 @@
 package java20250210;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class java2025020201010 {
@@ -111,35 +114,79 @@ public class java2025020201010 {
 //					System.out.println("같다");
 //				}else {
 //					System.out.println("다르다 ");
-//				}
-//			
-				String name1="주동건";
-				String name2="이동건";
-				if(name1.equals(name2))
-					System.out.println("같은이름");
-				else
-					System.err.println("다른이름 ");
-
-		  System.out.println(name1.compareTo(name2));
+////				}
+////			
+//				String name1="주동건";
+//				String name2="이동건";
+//				if(name1.equals(name2))
+//					System.out.println("같은이름");
+//				else
+//					System.err.println("다른이름 ");
+//
+//		  System.out.println(name1.compareTo(name2));
 		  //compareTo: 0이라면 두문자열이 동일
 		  // 					양수:사전적 순서가 앞일경우 
 		  //	 		 	 	 음수:사전적 순서가 뒤인경우 
+//		  
+//		  int[] number=new int[] {10,20,30,40,50,60,70,80,90,100};
+//		  
+//		  for(int num:number) {
+//			  System.out.println(num);
+//			  
+//		  }
+		  // 배열의 인덱스사용불가
+		  // 배열의 데이터를 변경하거나 삭제불가
 		  
-		  int[] num=new int[] {10,20,30,40,50,60,70,80,90,100};
+		  //문제 
+		  //tall 배열은 a 반 학생들의 키를 저장 한것이다 
+		  // a 반의 평균키보다 큰키를 찾아서 출력하세요 
+//		  float[] tall= new float[] {167.2f, 163.4f , 175.7f ,173.8f, 158.3f};
+//		 
+//		  float avg=0,sum=0;
+//		  for(float t:tall) {
+//			  sum=sum+t;
+//		  }
+//		   avg=sum/tall.length;//평균구하기
+//		  for(float t:tall) {
+//			  if(avg<=t)
+//				  System.out.println(t);
+//		  }
 		  
-		  for(int a:num) {
-			  System.out.println(a);
-			  
-		  }
 		  
 //		  for(int i=0;i<num.length;i++) {
 //			  System.out.println(num[i]);
 //		  }
 //		  
-		  
-		  
-		  
-		  
+		  //배열관련 메서드
+//		int[] num=new int[]	{10,20,30,40,50,60,70,80};
+		
+//		System.out.println( Arrays.toString(num));
+//		 //자바에서 데이터 출력 메서드이름 toString
+//		  int[] a=new int[7];
+//		  System.out.println(Arrays.toString(a));
+//		 //배열복사 
+//		  // arraycopy(복사배열, 복사배열시작인덱스,저장배열,저장시작인덱스);
+//		  System.arraycopy(num,0,a,0,num.length);
+//		 System.out.println(Arrays.toString(a)); 
+//		//  배열비교 
+//		 boolean isSame=Arrays.equals(num,a);
+//		 System.out.println(isSame);
+		  //배열정렬
+		 int[] arr =new int[] {543,234,2431,142,432,534,432,123};
+		 System.out.println("===정렬전===");
+		 System.out.println(Arrays.toString(arr));
+		 Arrays.sort(arr);
+		 System.out.println("---정렬후---");
+		 System.out.println(Arrays.toString(arr));
+		//Integer[]arr2={ 
+//		 Arrays.sort(arr,Collections.reverseOrder());
+		 
+		 String[] names= {"이순신","이성계","김춘추","정약용","문익점"};
+		 System.out.println(Arrays.toString(names));
+		 
+		 Arrays.sort(names);
+		 System.out.println(Arrays.toString(names));
+		 //comparator 구현필요 
 }
 
 		
