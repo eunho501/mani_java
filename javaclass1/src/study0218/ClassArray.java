@@ -6,7 +6,7 @@ public class ClassArray {
 		
 		
 //		Member mem=new Member();
-//		mem.name="장덕철";
+////		mem.name="장덕철";
 //		mem.job="가수";
 //		mem.age=31;
 //String name=new String();		
@@ -36,11 +36,27 @@ public class ClassArray {
 //		
 //		int[] a=new int[] {1,2,3,4,5,6};
 		
-		Member info=new Member();
+//		Member info=new Member();
 		
+// 영화제목 장르 관객수 개봉년도 
+// 위 항목의 데이터를 저장할수 있는 클래스정의
+// 영화 한편에대한 데이터 입력하고 출력
 		
+//Movie[] movie=new Movie();
+//	movie.title="ee";
+//	
+
+//for(int i=0;i<movies.length;i++)
+//			movies[i]= new Movie();
+//		
+//
+//		movies[0].title="e";		
+	
+//		Membre info =new Member();
+//		System.out.println(info.name);
 		
-		
+		Member info=new Member(20,"군인");
+		System.out.println(info.job);
 		
 		
 	}
