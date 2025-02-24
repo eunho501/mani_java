@@ -19,3 +19,4 @@ public class Courses {
 				"시수"+this.times+"학점"+this.point;
 	}
 }
+  
