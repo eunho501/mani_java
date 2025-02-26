@@ -3,17 +3,27 @@ package java_inherit;
 public class javainherit {
 
 	public static void main(String[] args) {
+		Tv tv=new Tv("삼성",95000,"st60");
+		Aircon air= new Aircon("캐리어",54000,"ca18t");
+		Computer com=new Computer("삼성",173000,"매직");
 		
-		Tv tv=new Tv();
-//		tv.onOff=true;//전원 on
-		tv.power();//전원on true
-		tv.power();//전원 off false
-		tv.brand="삼성";
-		tv.price=120000;
-		tv.name="oled st60";
+		tv.power();
+		air.power();
+		com.power();
 		
-		Computer com=new Computer();
-		com.onOff=true;
+		
+		
+		
+//		Tv tv=new Tv();
+////		tv.onOff=true;//전원 on
+//		tv.power();//전원on true
+//		tv.power();//전원 off false
+//		tv.brand="삼성";
+//		tv.price=120000;
+//		tv.name="oled st60";
+//		
+//		Computer com=new Computer();
+//		com.onOff=true;
 		
 		
 	}
