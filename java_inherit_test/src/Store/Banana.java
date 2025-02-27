@@ -14,7 +14,7 @@ public class Banana extends Fruit {
 	 }
 	 @Override
 		public String toString() {
-			return ("오랜지는 "+ cost+"원 " + capacity + "ml");
+			return ("바나나 "+ cost+"원 " + capacity + "ml");
 		};
 }
 
