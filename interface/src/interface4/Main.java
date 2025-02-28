@@ -6,11 +6,11 @@ public class Main {
 		RemoteCon[]rcon=new RemoteCon[] {
 				new Light(),new Tv(),
 				new Aircon()
-		};
-		for(RemoteCon:rcon) {
-			con.on();
-			con.Off();
-		}
+//		};
+//		for(RemoteCon:rcon) {
+//			con.on();
+//			con.Off();
+//		}
 		
 		
 		
