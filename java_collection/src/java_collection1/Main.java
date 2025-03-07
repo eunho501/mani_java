@@ -24,6 +24,10 @@ public class Main {
 		list.add("리순신");
 		list.add("세종");
 		
+		
+		
+		
+		//맨끝에 추가 
 		System.out.println(list.size());
 		//크기-데이터몇개 저장되어있는가 
 		System.out.println(list.get(2));
@@ -34,7 +38,19 @@ public class Main {
 		//인덱스를 지정하여 해당 데이터삭제
 		list.remove("리순신");
 		//삭제할 데이터입력 삭제
+		list.clear();//배열모두삭제
 		System.out.println(list);
+		
+		for(int i=0;i<list.size();i++) {
+			System.out.println(list.get(i));
+		}
+		for(Object o:list) {
+			System.out.println(o);
+			
+		}
+		list.add(1,"내가원하는곳");//내가원하는곳 삽입
+		System.out.println(list);
+		System.out.println(list.contains("세종"));
 	}
 
 	
