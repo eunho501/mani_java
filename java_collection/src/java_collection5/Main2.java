@@ -15,6 +15,7 @@ public class Main2 {
 		//큐에서 내보내기 -먼저 들어온순서대로 
 		q.poll();
 		System.out.println(q);
+		
 
 	}
 
