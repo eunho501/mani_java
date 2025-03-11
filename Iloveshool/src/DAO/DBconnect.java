@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class DBconnect {
 	protected Connection conn;
 	protected Statement st;
-	protected ResultSet re;
+	protected ResultSet rs;
 	
 	protected DBconnect() {
 		connection();
@@ -25,7 +25,7 @@ public class DBconnect {
 		String password="1234";
 		String url="jdbc:mysql://localhost:3306/gle";
 		
-		Connection conn=null;
+		conn=null;
 		try {
 			conn=DriverManager.getConnection(url,user,password);
 			
