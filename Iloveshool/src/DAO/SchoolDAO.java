@@ -21,7 +21,7 @@ public class SchoolDAO extends DBconnect{
 		rs.getString("public_private"),rs.getString("homepage")
 						
 						);
-				list.add(data);
+				list.add(data);                             
 			}
 			
 		}catch(Exception e) {

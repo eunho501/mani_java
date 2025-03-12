@@ -8,6 +8,7 @@ import VO.School;
 
 public class SchoolService implements ActiveService{
 	private SchoolDAO dao;
+
 	public SchoolService() {dao=new SchoolDAO();}
 
 	public void searchSchool(String id) {
